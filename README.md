@@ -9,15 +9,17 @@ Migration from Text-Based Systems to Cloud-Based Systems :
 For Healthcare:
 There are several health systems that have paper-based patient records. This system could be used to create digital copies of their paper-based records. These digital copies could then be migrated en masse to an Electronic Health Record (EHR) / Electronic Medical Record (EMR) system for quick uploads.
 
+For Law:
+
+The majority of court files and documents are kept as PDFs and images. This software could enable an attorney to extract text from these PDFs and Images to perform large-scale analysis of cases that are similar to their clients. This could help to detect patterns that would be otherwise difficult to identify.
 
 
+How to Use This Repository (Repo):
 
-# Getting Started with Create React App
+1. Clone This Repo to your Computer (preferably use a local machine)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Within your Terminal -  use the command 'cd' to navigate to where you saved this specific folder
 
-## Available Scripts
-
-In the project directory, you can run:
+3. Still, Within your Terminal - use the command 'npm start' to
 
 ### `npm start`
