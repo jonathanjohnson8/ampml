@@ -3,6 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import * as serviceWorker from './serviceWorker';
+
+import Amplify from 'aws-amplify'
+import config from './aws-exports'
+import { AmazonAIPredictionsProvider } from '@aws-amplify/predictions'
+
+Amplify.configure(config)
+Amplify.addPluggable(new AmazonAIPredictionsProvider())
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
